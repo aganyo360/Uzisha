@@ -8,6 +8,7 @@ export default function App() {
       <Text>Home</Text>
       <Text>About</Text>
       {/* <StatusBar style="auto" /> */}
+      <Text numberOfLines="{10}">This is a sample explanation to show how the numberoflines prop on react affects the number of lines</Text>
     </SafeAreaView>
   );
 }

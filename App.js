@@ -9,7 +9,7 @@ export default function App() {
       <Text>About</Text>
       {/* <StatusBar style="auto" /> */}
       <Text numberOfLines="{10}">This is a sample explanation to show how the numberoflines prop on react affects the number of lines</Text>
-
+      <Text>line 2</Text>
       <Image
         source={require('./assets/splash.png')}
         // this is only for a local image
